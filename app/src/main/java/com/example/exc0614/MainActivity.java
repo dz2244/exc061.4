@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
     }
     int counter = 0 ;
     public void ace(View view) {
-
+        counter += 1 ;
+        text3.setText("This is a click number:" + counter);
 
     }
 }
