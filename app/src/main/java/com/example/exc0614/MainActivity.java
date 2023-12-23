@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     public void ace(View view) {
         counter += 1 ;
         text3.setText("This is a click number:" + counter);
+        if (counter % 7 == 0)
+            counter = 0 ;
+            text3.setText("kaboom!!!");
 
     }
 }
